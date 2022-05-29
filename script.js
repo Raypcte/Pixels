@@ -7,6 +7,9 @@ function criarQuadrado(quantidade) {
     // Cria uma div
     const div = document.createElement('div');
     // adiciona uma classe na div
+    if (index === 0) {
+      div.classList.add('selected');
+    }
     div.classList.add('color');
     div.classList.add(`quadrado${index}`);
     paletaDeCores.appendChild(div);
