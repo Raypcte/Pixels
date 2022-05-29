@@ -1,0 +1,23 @@
+.color {
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  display: inline-block;
+  border: 1px solid black;
+}
+
+.quadrado0 {
+    background-color: red;
+}
+
+.quadrado1 {
+    background-color: blue;
+}
+
+.quadrado2 {
+    background-color: aquamarine;
+}
+
+.quadrado3 {
+    background-color: yellow;
+}
