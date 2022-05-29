@@ -1,3 +1,12 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    font-size: 48px;
+    font-family: fantasy;
+}
+
 .color {
   width: 100px;
   height: 100px;
@@ -7,7 +16,7 @@
 }
 
 .quadrado0 {
-  background-color: red;
+  background-color: black;
 }
 
 .quadrado1 {
@@ -20,4 +29,13 @@
 
 .quadrado3 {
   background-color: yellow;
+}
+
+.pixel {
+  width: 75px;
+  height: 75px;
+  background-color: white;
+  border: 1px solid black;
+  display: inline-block;
+  margin: 5px;
 }
