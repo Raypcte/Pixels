@@ -1,5 +1,9 @@
 body {
   text-align: center;
+  background-image: url('https://construindodecor.com.br/wp-content/uploads/2019/10/flor-de-cerejeira.jpg');
+  height: 100vh;
+  display: flex;
+  background-position: center ;
 }
 
 h1 {
@@ -15,7 +19,7 @@ h1 {
   border: 1px solid black;
 }
 
-.quadrado0 {
+/* .quadrado0 {
   background-color: black;
 }
 
@@ -29,7 +33,7 @@ h1 {
 
 .quadrado3 {
   background-color: yellow;
-}
+} */
 
 .pixel {
   width: 40px;
@@ -38,4 +42,13 @@ h1 {
   border: 1px solid black;
   display: inline-block;
   margin: 5px;
+}
+
+.pixel-art {
+  background-color: rgba(239, 70, 230, 0.591);
+  width: max-content;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px violet;
 }
